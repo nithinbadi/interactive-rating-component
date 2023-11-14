@@ -16,21 +16,23 @@ body{
     width:100%;
     
     /* padding:1.75rem; */
-    max-width:375px;
+    max-width:345px;
+    height:75vh;
     border-radius:20px;
     line-height:1.5;
     margin:12px;
     display:flex;
     flex-direction:column;
+    justify-content:space-around;
 }
 .box{
     
     margin:25px;
 }
-p{font-size:15px;padding:10px;margin:0;color:hsl(216, 12%, 54%);}
+p{font-size:15px;font-weight:400;margin:15px 0;color:hsl(216, 12%, 54%);}
 #title{
     display:block;
-    margin:  5px;
+    margin-bottom:5px;
     color:hsl(0,0%,100%);
     font-size:1.75rem;
     font-weight:400;
@@ -50,7 +52,7 @@ p{font-size:15px;padding:10px;margin:0;color:hsl(216, 12%, 54%);}
     justify-content:center;
     align-items:center;
     padding:5px;
-    margin:0 10px
+    margin:0px 0 10px;
 }
 .options{
     width: 2.75rem;
@@ -66,12 +68,12 @@ p{font-size:15px;padding:10px;margin:0;color:hsl(216, 12%, 54%);}
 
 .buttons{
     width:100%;
-    margin:25px 0px;
+    margin:15px 0px;
     display:flex;
-    justify-content:space-around;
+    justify-content:space-between;
 }
 #submit{
-    width:90%;
+    width:100%;
     height:2.75rem;
     font-size:12px;
     letter-spacing: 2.5px;
@@ -82,4 +84,5 @@ p{font-size:15px;padding:10px;margin:0;color:hsl(216, 12%, 54%);}
     color:hsl(0,0%,100%);
     border-radius:50px;
     border:none;
+    margin:15px 0;
 }
