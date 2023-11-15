@@ -1,5 +1,7 @@
 # Frontend Mentor - Interactive rating component
 
+live-preview: <a href='https://luxury-marshmallow-dd28da.netlify.app/'>Preview</a>
+
 ![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
